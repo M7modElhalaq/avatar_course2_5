@@ -27,6 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ManagerAssets.splash_screen_background,
             height: double.infinity,
             filterQuality: FilterQuality.high,
+            fit: BoxFit.cover,
           ),
           Align(
             alignment: Alignment.center,
