@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import '../../core/constants.dart';
-import '../../core/resources/manager_colors.dart';
-import '../../core/resources/manager_font_sizes.dart';
-import '../../core/resources/manager_font_weight.dart';
-import '../../core/resources/manager_fonts.dart';
-import '../../core/resources/manager_icon_sizes.dart';
-import '../../core/resources/manager_radius.dart';
-import '../../core/resources/manager_strings.dart';
-import '../../core/widgets/base_text_widget.dart';
+
+import '../core/constants.dart';
+import '../core/resources/manager_colors.dart';
+import '../core/resources/manager_font_sizes.dart';
+import '../core/resources/manager_font_weight.dart';
+import '../core/resources/manager_fonts.dart';
+import '../core/resources/manager_icon_sizes.dart';
+import '../core/resources/manager_strings.dart';
+import '../core/widgets/base_text_widget.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
