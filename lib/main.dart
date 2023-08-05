@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'core/resources/manager_font_sizes.dart';
 import 'core/routes.dart';
+import 'features/auth/presentation/views/auth_view.dart';
 import 'features/main_screen.dart';
 import 'features/splash/presentation/views/splash_screen.dart';
 
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         Routes.splashScreen: (context) => const SplashScreen(),
         Routes.mainScreen: (context) => const MainScreen(),
         Routes.outBoardingScreen: (context) => const OutBoardingScreen(),
+        Routes.authView: (context) => const AuthView(),
       },
     );
   }
