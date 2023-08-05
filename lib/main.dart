@@ -1,3 +1,4 @@
+import 'package:avatar_course2_5/features/out_boarding/presentation/views/out_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'core/resources/manager_font_sizes.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
       routes: {
         Routes.splashScreen: (context) => const SplashScreen(),
         Routes.mainScreen: (context) => const MainScreen(),
+        Routes.outBoardingScreen: (context) => const OutBoardingScreen(),
       },
     );
   }
