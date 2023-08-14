@@ -160,25 +160,25 @@ class _OutBoardingScreenState extends State<OutBoardingScreen> {
               children: [
                 progressIndicator(
                   color: _isFirstPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 0 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),
                 progressIndicator(
                   color: _isSecondPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 1 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),
                 progressIndicator(
                   color: _isThirdPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 2 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),
                 progressIndicator(
                   color: _isLastPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 3 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),

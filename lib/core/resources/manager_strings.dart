@@ -12,4 +12,23 @@ class ManagerStrings {
 
   static const String start = 'Start';
   static const String next = 'Next';
+  static const String orText = 'Or';
+
+  static const String signInButton = 'Sign In';
+  static const String signUpButton = 'Sign Up';
+  static const String visitorButton = 'Visitor';
+  static const String loginButton = 'Login';
+  static const String rememberMe = 'Remember me';
+  static const String forgetPassword = 'Forget your password?';
+  static const String dontHaveAccount = 'Don\'t have an account?';
+  static const String alreadyHaveAccount = 'Already have an account?';
+
+  // static const String userNameLabel = 'Username';
+  // static const String emailLabel = 'Email';
+
+  static const String userNameHintText = 'Username';
+  static const String emailHintText = 'Email';
+  static const String phoneNumberHintText = 'Ex: 986-786-421';
+  static const String passwordHintText = 'Password';
+  static const String passwordConfirmHintText = 'Confirm Password';
 }

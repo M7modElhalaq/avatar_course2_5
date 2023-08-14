@@ -1,3 +1,6 @@
+import 'package:avatar_course2_5/features/auth/presentation/views/login_view.dart';
+import 'package:avatar_course2_5/features/auth/presentation/views/sign_up_view.dart';
+import 'package:avatar_course2_5/features/home/presentation/views/home_view.dart';
 import 'package:avatar_course2_5/features/out_boarding/presentation/views/out_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -35,6 +38,9 @@ class MyApp extends StatelessWidget {
         Routes.mainScreen: (context) => const MainScreen(),
         Routes.outBoardingScreen: (context) => const OutBoardingScreen(),
         Routes.authView: (context) => const AuthView(),
+        Routes.loginView: (context) => LoginView(),
+        Routes.signUpView: (context) => SignUpView(),
+        Routes.homeView: (context) => HomeView(),
       },
     );
   }
