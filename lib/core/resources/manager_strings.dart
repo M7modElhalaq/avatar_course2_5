@@ -14,6 +14,8 @@ class ManagerStrings {
   static const String next = 'Next';
   static const String orText = 'Or';
 
+  static const String noFoundRoute = 'No Found Route';
+
   static const String signInButton = 'Sign In';
   static const String signUpButton = 'Sign Up';
   static const String visitorButton = 'Visitor';

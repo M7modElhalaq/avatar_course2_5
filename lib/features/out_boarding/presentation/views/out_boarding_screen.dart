@@ -9,7 +9,7 @@ import 'package:avatar_course2_5/core/resources/manager_width.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/constants.dart';
-import '../../../../core/routes.dart';
+import '../../../../routes/routes.dart';
 import '../../../../core/widgets/base_button.dart';
 import '../../../../core/widgets/base_button.dart';
 import '../../../../core/widgets/navigator_push_replacement.dart';
