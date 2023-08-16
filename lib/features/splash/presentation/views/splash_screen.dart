@@ -1,7 +1,8 @@
 import 'package:avatar_course2_5/core/constants.dart';
 import 'package:avatar_course2_5/core/resources/manager_assets.dart';
-import 'package:avatar_course2_5/core/routes.dart';
+import 'package:avatar_course2_5/routes/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -15,8 +16,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     print('Hello I am init state');
-    Future.delayed(Duration(seconds: Constants.splashTime), () =>
-      Navigator.pushReplacementNamed(context, Routes.outBoardingScreen));
+    Future.delayed(const Duration(seconds: Constants.splashTime), () =>
+      Get.offAllNamed(Routes.outBoardingScreen));
   }
 
   @override

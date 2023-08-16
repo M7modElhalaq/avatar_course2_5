@@ -26,7 +26,7 @@ class _MainScreenState extends State<MainScreen> {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: ManagerColors.transparent,
-        elevation: Constants.appBarElevation,
+        elevation: Constants.elevationZero,
         title: baseText(
           text: ManagerStrings.appName,
           fontSize: ManagerFontSizes.s24,
@@ -45,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
       ),
-      body: Center(
+      body: const Center(
         child: Text('Main Page'),
       ),
     );

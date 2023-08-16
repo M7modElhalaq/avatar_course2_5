@@ -9,7 +9,7 @@ import 'package:avatar_course2_5/core/resources/manager_width.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/constants.dart';
-import '../../../../core/routes.dart';
+import '../../../../routes/routes.dart';
 import '../../../../core/widgets/base_button.dart';
 import '../../../../core/widgets/base_button.dart';
 import '../../../../core/widgets/navigator_push_replacement.dart';
@@ -160,25 +160,25 @@ class _OutBoardingScreenState extends State<OutBoardingScreen> {
               children: [
                 progressIndicator(
                   color: _isFirstPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 0 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),
                 progressIndicator(
                   color: _isSecondPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 1 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),
                 progressIndicator(
                   color: _isThirdPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 2 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),
                 progressIndicator(
                   color: _isLastPage()
-                      ? ManagerColors.black
+                      ? ManagerColors.grey
                       : ManagerColors.progressIndicatorColor,
                   width: _initialPage == 3 ? ManagerWidth.w20 : ManagerWidth.w8,
                 ),

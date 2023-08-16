@@ -19,7 +19,7 @@ Text baseText({
       fontSize: fontSize ?? ManagerFontSizes.s24,
       fontFamily: fontFamily ?? '',
       fontWeight: fontWeight ?? ManagerFontWeight.w600,
-      color: color ?? ManagerColors.white70,
+      color: color ?? ManagerColors.black,
     ),
   );
 }
