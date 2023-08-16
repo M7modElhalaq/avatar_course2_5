@@ -3,7 +3,7 @@ import 'package:avatar_course2_5/core/resources/manager_height.dart';
 import 'package:avatar_course2_5/core/resources/manager_radius.dart';
 import 'package:avatar_course2_5/core/resources/manager_strings.dart';
 import 'package:avatar_course2_5/core/resources/manager_width.dart';
-import 'package:avatar_course2_5/core/routes.dart';
+import 'package:avatar_course2_5/routes/routes.dart';
 import 'package:avatar_course2_5/core/widgets/button_widget.dart';
 import 'package:flutter/material.dart';
 

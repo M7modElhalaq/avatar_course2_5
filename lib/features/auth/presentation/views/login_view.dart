@@ -6,7 +6,7 @@ import 'package:avatar_course2_5/core/resources/manager_font_weight.dart';
 import 'package:avatar_course2_5/core/resources/manager_height.dart';
 import 'package:avatar_course2_5/core/resources/manager_strings.dart';
 import 'package:avatar_course2_5/core/resources/manager_width.dart';
-import 'package:avatar_course2_5/core/routes.dart';
+import 'package:avatar_course2_5/routes/routes.dart';
 import 'package:avatar_course2_5/core/widgets/base_button.dart';
 import 'package:avatar_course2_5/core/widgets/base_text_widget.dart';
 import 'package:avatar_course2_5/core/widgets/text_form_field_widget.dart';
